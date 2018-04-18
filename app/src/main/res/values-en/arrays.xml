@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quotes">
+        <item>¡Together we build the best place to work!</item>
+        <item>¡With your actions you create experiences, generate emotions and build team!</item>
+        <item>“We are not a team because we work together. We are a team because we respect, trust and care for the rest of the team.”\n- Vala Afshar</item>
+        <item>“If you can laugh together, you can work together.”\n- Robert Orben</item>
+    </string-array>
+</resources>

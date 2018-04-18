@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ufo.tiago.moods">
+
+    <!-- For Object Browser -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".DaoMoodsApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ErrorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoadingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CollaboratorMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoodsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventSelectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CampaignActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FormsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeamsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeamsWeekActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeamsMonthActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".Notification_reciver"
+            android:screenOrientation="portrait"></receiver>
+
+        <activity
+            android:name=".TimelineActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- [START firebase_service] -->
+        <service android:name=".FcmMessaginService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <activity android:name=".EventStatsDayActivity"></activity>
+    </application>
+
+</manifest>

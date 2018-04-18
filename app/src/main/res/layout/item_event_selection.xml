@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/event_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:textColor="@color/textBody" />
+
+    <LinearLayout
+        android:id="@+id/viewother"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/other_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/other_wich"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/textBody"
+            android:textColorHint="@color/textLabel"
+            android:textSize="14dp" />
+
+        <View xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/textLabel" />
+    </LinearLayout>
+
+
+</LinearLayout>

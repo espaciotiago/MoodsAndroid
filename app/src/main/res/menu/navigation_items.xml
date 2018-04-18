@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_search"
+        android:title="@string/sorry"
+        android:icon="@android:drawable/arrow_down_float" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/sorry"
+        android:icon="@android:drawable/arrow_down_float" />
+    <item android:id="@+id/action_navigation"
+        android:title="@string/sorry"
+        android:icon="@android:drawable/arrow_down_float" />
+</menu>

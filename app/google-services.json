@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "805660604426",
+    "firebase_url": "https://moods-b5704.firebaseio.com",
+    "project_id": "moods-b5704",
+    "storage_bucket": "moods-b5704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805660604426:android:8b8626e4e1c8afe6",
+        "android_client_info": {
+          "package_name": "com.ufo.tiago.moods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805660604426-eib5k09e8apc0jpnamjo06gj58p7q1lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ufo.tiago.moods",
+            "certificate_hash": "2b9f5c5bc84d032ecd4e8ca950d579283f2d5096"
+          }
+        },
+        {
+          "client_id": "805660604426-3i7fhlofii1s2ukplhda8vubmdt3pu8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS11ExTdG1iKi4N0ir_m_AgwVPfgprw6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805660604426-3i7fhlofii1s2ukplhda8vubmdt3pu8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

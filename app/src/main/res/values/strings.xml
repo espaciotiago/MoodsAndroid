@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Moods</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+
+    <string name="login">Inicar Sesion</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="forgot_password_body">Escribe tu nombre de usuario y te enviaremos tu nueva contraseña</string>
+    <string name="reset_password">Recuperar Contraseña</string>
+    <string name="well_done">¡En hora buena!</string>
+    <string name="successfully_sended">Se ha enviado correctamente</string>
+    <string name="your_new_password">Tu nueva contraseña ha sido enviada al siguiente correo electrónico:</string>
+    <string name="tap_for_continue">Toque la pantalla para continuar</string>
+    <string name="needed_field">Este campo es obligatorio</string>
+    <string name="sorry">¡Lo sentimos!</string>
+    <string name="an_error_has_happended">Ha ocurrido un error</string>
+    <string name="network_error">No se ha podido acceder al servidor\nCompruebe su conexión a internet</string>
+    <string name="loading">Cargando...</string>
+    <string name="moods">Moods</string>
+    <string name="tendency">Tendencia mensual</string>
+    <string name="forms">Encuestas</string>
+    <string name="campaigns">Campañas</string>
+    <string name="teams">Equipos</string>
+    <string name="team">Equipo</string>
+    <string name="next">Continuar</string>
+    <string name="preview">Anterior</string>
+    <string name="next_q">Siguiente</string>
+    <string name="send">Enviar</string>
+    <string name="save">Guardar</string>
+    <string name="other_option">Otro</string>
+    <string name="other_wich">¿Cual?</string>
+    <string name="active_forms">Encuestas activas</string>
+    <string name="feeling">¿Cómo te sientes hoy?</string>
+    <string name="total_questions">Total de preguntas:</string>
+    <string name="active_until">Activa hasta:</string>
+    <string name="status_sended">Enviada</string>
+    <string name="status_pending">Pendiente de enviar</string>
+    <string name="why">¿Por qué te sientes así?</string>
+    <string name="average">Promedio:</string>
+    <string name="total_answers">Total de respuestas:</string>
+    <string name="average_desviation">Desviación promedio:</string>
+    <string name="this_week">Esta semana</string>
+    <string name="this_month">Este mes</string>
+    <string name="week">Semana</string>
+    <string name="of">de</string>
+    <string name="events">Eventos</string>
+    <string name="event_selected">Evento Seleccionado:</string>
+    <string name="close">Cerrar sesion</string>
+    <string name="incomplete_form">Debe responder todas las preguntas, antes de enviar el formulario</string>
+
+    <string name="mood_1">Muy bien</string>
+    <string name="mood_2">Bien</string>
+    <string name="mood_3">Indiferente</string>
+    <string name="mood_4">Regular</string>
+    <string name="mood_5">Mal</string>
+</resources>

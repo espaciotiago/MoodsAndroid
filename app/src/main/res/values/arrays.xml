@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="quotes">
+        <item>¡Juntos construimos el mejor lugar para trabajar!</item>
+        <item>¡Con tus acciones creas experiencias, generas emociones y construyes equipo!</item>
+        <item>“No somos un equipo porque trabajamos juntos. Somos un equipo porque respetamos, confiamos y nos preocupamos por el resto del equipo.”\n- Vala Afshar</item>
+        <item>“Si podéis reír juntos, podéis trabajar juntos.”\n- Robert Orben</item>
+    </string-array>
+
+</resources>
